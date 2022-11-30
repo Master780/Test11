@@ -16,15 +16,11 @@ while True:
                      'pink', 'purple', 'red', 'yellow', 'violet', 'indigo', 'chartreuse', 'lime'])
     x0 = randint(-30, size)
     y0 = randint(-30, size)
-<<<<<<< HEAD
     d = randint(1, size / 260)
-=======
-    d = randint(1, size / 250)
->>>>>>> 827fdb4 (Install Commit)
     canvas.create_oval(x0, y0, x0 + d, y0 + d, fill=colors)
     root.bind('<Button-1>', exit)
     root.bind('<Return>', exit)
-    #root.mainloop()
+    #root.mainloop() основа
     root.update()
 
 
