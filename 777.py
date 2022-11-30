@@ -20,7 +20,7 @@ while True:
     canvas.create_oval(x0, y0, x0 + d, y0 + d, fill=colors)
     root.bind('<Button-1>', exit)
     root.bind('<Return>', exit)
-    #root.mainloop() основа
+    #root.mainloop() основа   32522
     root.update()
 
 
