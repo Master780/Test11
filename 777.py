@@ -21,6 +21,7 @@ while True:
     root.bind('<Button-1>', exit)
     root.bind('<Return>', exit)
     #root.mainloop() основа   32522
+
     root.update()
 
 
